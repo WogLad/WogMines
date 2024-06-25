@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(35, 35, 35);
+    color: white;
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+}
+
+#tileContainer {
+    width: max-content;
+    margin: auto;
+}
+
+input {
+    text-align: center;
+    width: 40px;
+    padding: 10px;
+    font-size: 1rem;
+    border: rgb(106, 106, 106) solid;
+    border-radius: 7.5px;
+    color: white;
+    background-color: rgb(75, 75, 75);
+}
+
+button {
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+    padding: 13px 25px;
+    border: rgb(106, 106, 106) solid;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(75, 75, 75);
+    transition: ease 0.3s all;
+    cursor: pointer;
+}
+button:disabled {
+    opacity: 65%;
+    cursor: not-allowed;
+}
+
+.tile {
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(106, 106, 106);
+    margin: 3px;
+    transition: ease 0.3s all;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 0;
+}
+.tile:hover {
+    background-color: rgb(134, 134, 134);
+}
+.tile:disabled {
+    cursor: not-allowed;
+}

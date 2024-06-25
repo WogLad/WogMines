@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WogMines</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>WogMines</h2>
+
+    <br>
+
+    <div id="moneyCount" style="width: max-content; margin: auto;">
+        Money: N/A
+    </div>
+
+    <br>
+
+    <div style="width: max-content; margin: auto;">
+        <span>Bomb Count:</span>
+        <input type="number" min="1" max="24" value="4" id="bombCountInput">
+        <br><br>
+        <span>Bet Amount:</span>
+        <input type="number" min="0" value="1" id="betAmountInput">
+    </div>
+
+    <br>
+
+    <div id="tileContainer"></div>
+    
+    <br><br>
+
+    <div style="width: max-content; margin: auto;">
+        <button id="playButton">PLAY</button>
+    </div>
+
+    <br>
+
+    <div style="width: max-content; margin: auto;">
+        <button id="cashOutButton">CASH OUT</button>
+        <span> >>> </span>
+        <span id="profitCount">Profit: 999</span>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
